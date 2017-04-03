@@ -4,7 +4,7 @@ A simple, modular HTML5 template to kick off your responsive websites. Copy, pas
 
 Created by [zitrusfrisch](http://zitrusfrisch.de/html-starterkit) 
 
-![](https://cdn.gomix.com/fee2c865-eccf-488f-a663-964082b34098%2FhtmlStarter.png)
+![](https://cdn.glitch.com/fee2c865-eccf-488f-a663-964082b34098%2FhtmlStarter.png)
 
 ## Contains the following files
 
