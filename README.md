@@ -1,8 +1,8 @@
 # HTML Starter
 
-A simple, modular HTML5 template to kick off your responsive websites. Copy, paste and edit your way to your own website.
+A simple, modular HTML5 template to kick off your responsive portfolio page. Copy, paste and edit your way to your own website.
 
-Created by [zitrusfrisch](http://zitrusfrisch.de/html-starterkit) 
+Created by [zitrusfrisch](http://zitrusfrisch.de/html-starterkit) and modified by Marion Walton
 
 ![](https://cdn.glitch.com/fee2c865-eccf-488f-a663-964082b34098%2FhtmlStarter.png)
 
