@@ -58,16 +58,15 @@
 
      
       <!-- Preferred - use the video element -->
-       <figure><video width="320" height="240" controls>
-        <source
-          src="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Fseth.mp4?v=1633074642449"
-          type="video/mp4"
-        />
-        <!-- alternative format for video. The browser will use the first recognized format. <source src="movie.mov" type="video/mov">-->
-        <!-- alternative format for video. The browser will use the first recognized format. <source src="movie.ogg" type="video/ogg">-->
-        <!-- The following message appears for older browsers which do not recognise the video tag-->
-        Your browser does not support the video tag.
-      </video><figcaption>Display video using video tag</figcaption></figure>
+       <figure>
+         <video controls>
+           <!-- alternative format for video. The browser will use the first recognized format. -->
+	<source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm" 
+  				type="video/webm">
+	<source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4" 
+  				type="video/mp4">
+                  <!-- The following message only appears for older browsers which do not recognise the video tag-->Your browser does not support the video tag.
+</video><figcaption>Display video using video tag</figcaption></figure>
 
       <!-- Lists - Add your projects to this list -->
       <ol>
