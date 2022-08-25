@@ -6,21 +6,23 @@
       Your Name Here: Beginner Version of Multimedia Journalism Student
       Portfolio
     </title>
-    <!-- This lets you practice linking a CSS stylesheet
-      <link rel="stylesheet" href="css/style.css" />-->
+    <!-- This lets you practice linking a CSS stylesheet-->
+      <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Your Logo - Practice using images -->
     <!-- Replace this header image with your own logo uploaded to Assets.-->
+    
+    <!-- This div is used to position the container for your content -->
+    <div class="container">
     <img
       src="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Fyour%20name%20goes%20here.svg?v=1631285412726"
     />
-    <!-- This div is used to position the container for your content -->
-    <div class="container">
-    <!-- Text Header - Practice using HTML Headings -->
-    <h1>Your Name</h1>
-    <h2>Centre for Film & Media Studies</h2>
-    <h3>Multimedia Journalism Portfolio</h3>
+      <!-- Text Header - Practice using HTML Headings -->
+    
+      <h1>Your Name</h1>
+    <h2>Multimedia Journalism </h2>
+    <h3>Portfolio - 2022</h3>
     <!-- Replace this image with your own uploaded to Assets.-->
     <img
       src="https://cdn.glitch.com/702579f6-c853-4548-a1c5-4e1558c155fe%2Fthumbnail.svg"
@@ -31,8 +33,8 @@
     <!-- About Me - Practice using HTML Paragraphs and Text -->
     <p>
       Tell us about yourself and your studies at
-      <a href="https://www.w3schools.com">UCT</a>. Lorem ipsum dolor sit amet,
-      consectetuer adipiscing elit, <a href="#">this text is a link</a> sed diam
+      <a href="https://www.w3schools.com" title="University of Cape Town">UCT</a>. Lorem ipsum dolor sit amet,
+      consectetuer adipiscing elit, <a href="#" title="This is a tool tip">this text is the link anchor</a> sed diam
       nonummy nibh euismod dolore magna aliquam erat volutpat. Lorem ipsum dolor
       sit amet <b>hello bold text</b> nonummy nibh euismod
       <i>italic text</i> tincidunt ut laoreet dolore magna.
@@ -40,33 +42,34 @@
 
     <!-- Multimedia - Experiment with different ways to display media in HTML -->
     <h3>Multimedia Projects</h3>
-    <!-- Lists - Add your other projects to this list -->
+  
+    <!-- Display a video in an iframe -->
     <iframe
           src="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Fseth.mp4?v=1633074642449"
           style="height:200px;width:300px;"
           title="Iframe Example"
         ></iframe>
         <p>An iFrame loads the video (or any other external content) in an iFrame, whether it displays depends on your browser</p>
-        <!-- Lists -->
+<!-- Link to a video file -->
     
             <a
               href="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Famahle.mov?v=1633073803484"
               >Link to a mov file - whether it downloads or displays, depends on your browser</a
             >
-            <a
-              href="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Fseth.mp4?v=1633074642449"
-              >Mp4 file </a> 
-<p>TikTok intro video using video tag </p>
+<!-- Preferred - use the video element -->
           <video width="320" height="240" controls>
             <source
               src="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Fseth.mp4?v=1633074642449"
               type="video/mp4"
             />
-                        <!-- alternative format for video. The browser will use the first recognized format. <source src="movie.mov" type="video/mov">-->
+<!-- alternative format for video. The browser will use the first recognized format. <source src="movie.mov" type="video/mov">-->
             <!-- alternative format for video. The browser will use the first recognized format. <source src="movie.ogg" type="video/ogg">-->
 <!-- The following message appears for older browsers which do not recognise the video tag-->
             Your browser does not support the video tag.
           </video>
+        <p>TikTok intro video using video tag </p>
+      
+        <!-- Lists - Add your projects to this list -->
           <ol>
           <li><a href="#">Profile feature article</a></li>
           <li>Audio Feature</li>
