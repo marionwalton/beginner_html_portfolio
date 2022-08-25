@@ -76,6 +76,17 @@ a:hover {
   text-decoration: none;
 }
 
+figure img, svg, iframe, video, audio {
+    border-radius: 25px 25px 25px 25px;
+        padding: 1rem;
+        background-color: rgba(255,255,255,0.2);
+      }
+
+figure{
+  margin:0;
+  padding:0;
+}
+
 .container {
   width: 600px;
   margin: auto;
