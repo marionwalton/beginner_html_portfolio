@@ -16,19 +16,23 @@
       <!-- Replace this header image with your own logo uploaded to Assets.-->
 
       <img
-        src="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Fyour%20name%20goes%20here.svg?v=1631285412726" alt="Marion Walton Student Portfolio for Multimedia Journalism"
+        src="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Fyour%20name%20goes%20here.svg?v=1631285412726"
+        alt="Marion Walton Student Portfolio for Multimedia Journalism"
       />
       <!-- Text Header - Practice using HTML Headings -->
 
       <h1>Your Name</h1>
       <h2>Multimedia Journalism</h2>
       <h3>Portfolio - 2022</h3>
+      <!-- Use a figure whenever you want to link media to a caption -->
+      <figure>
       <!-- Replace this image with your own uploaded to Assets.-->
       <img
         src="https://cdn.glitch.com/702579f6-c853-4548-a1c5-4e1558c155fe%2Fthumbnail.svg"
-        width="200" height="200"
-           alt="Black and White Portrait of Marion Walton"
-      />
+        width="200"
+        height="200"
+        alt="Black and White Portrait of Marion Walton"
+      /><figcaption>Marion Walton</figcaption></figure>
 
       <h3>Education and Work Experience</h3>
       <!-- About Me - Practice using HTML Paragraphs and Text -->
@@ -44,30 +48,40 @@
       </p>
 
       <!-- Multimedia - Experiment with different ways to display media in HTML -->
-      <h3>Multimedia Projects</h3>
+      <h3>Video Intro</h3>
 
-      <!-- Display a video in an iframe -->
+      <!-- Use a figure whenever you want to link media to a caption -->
       <figure>
-      <iframe
-        src="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Fseth.mp4?v=1633074642449"
-        style="height: 300px; width: 200px"
-        title="Iframe Example"
-      ></iframe><figcaption>Display external content in iframe</figcaption></figure>
+        <!-- Display a video in an iframe -->
+        <iframe
+          src="https://cdn.glitch.com/f00f6c1a-06ce-406c-814c-bc96cccd12cc%2Fseth.mp4?v=1633074642449"
+          style="height: 300px; width: 200px"
+          title="Iframe Example"
+        ></iframe>
+        <!-- This is the caption -->
+        <figcaption>Display external content in iframe</figcaption>
+      </figure>
 
       <!-- Link to a video file -->
 
-     
       <!-- Preferred - use the video element -->
-       <figure>
-         <video controls>
-           <!-- alternative format for video. The browser will use the first recognized format. -->
-	<source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm" 
-  				type="video/webm">
-	<source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4" 
-  				type="video/mp4">
-                  <!-- The following message only appears for older browsers which do not recognise the video tag-->Your browser does not support the video tag.
-</video><figcaption>Display video using video tag</figcaption></figure>
-
+      <figure>
+        <video controls width="427" height="240">
+          <!-- alternative format for video. The browser will use the first recognized format. -->
+          <source
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm"
+            type="video/webm"
+          />
+          <source
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4"
+            type="video/mp4"
+          />
+          <!-- The following message only appears for older browsers which do not recognise the video tag-->Your
+          browser does not support the video tag.
+        </video>
+        <figcaption>Display video using video tag</figcaption>
+      </figure>
+    <h2>Projects - 2022</h2>
       <!-- Lists - Add your projects to this list -->
       <ol>
         <li><a href="#">Profile feature article</a></li>
@@ -103,9 +117,8 @@
         </li>
       </ol>
 
-      <!-- Your Data Journ Team - Practice using HTML Table -->
-      <h2>Skills and experience</h2>
-      <h3>My skills in multimedia journalism</h3>
+      <!-- Practice using HTML Table -->
+      <h3>Skills and experience</h3>
 
       <table>
         <thead>
@@ -120,14 +133,14 @@
 
         <tbody>
           <tr>
-            <th>Project 1</th>
+            <th>Project1</th>
             <td>Lorem ipsum dolor sit amet</td>
             <td>Lorem ipsum dolor sit amet</td>
             <td>Lorem ipsum dolor sit amet</td>
             <td>Lorem ipsum dolor sit amet</td>
           </tr>
           <tr>
-            <th>Project 2</th>
+            <th>Project2</th>
             <td>Lorem ipsum dolor sit amet</td>
             <td>Lorem ipsum dolor sit amet</td>
             <td>Lorem ipsum dolor sit amet</td>

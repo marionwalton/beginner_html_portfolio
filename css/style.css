@@ -60,6 +60,8 @@ table td{
   margin: 0;
   font-weight: 400; 
   font-size: 1rem;
+  background-color: #fff;
+  color: #000;
 }
 
 p,
@@ -81,7 +83,7 @@ a:hover {
 }
 
 figure img, svg, iframe, video, audio {
-    border-radius: 5px 5px 5px 5px;
+   
         padding: 1rem;
         background-color: rgba(250,250,250,0);
         border: 1px solid black;
