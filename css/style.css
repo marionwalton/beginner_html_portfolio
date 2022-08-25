@@ -20,7 +20,8 @@ h2 {
   color: #8a8a8a;
   text-align: left;
   display: block;
-  margin: 
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
