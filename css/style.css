@@ -51,12 +51,14 @@ a,
 }
 
 table,th,td {
-  border: 1px solid black;
+  border: 1px solid #f2f2f2;;
    background-color: #fff;
   color:#000;
    font-weight: 600; 
   font-size: 1rem;
 text-align: left;
+  border-collapse: collapse;
+  padding: 0.8rem;
       }
 
 table td{
@@ -88,8 +90,8 @@ a:hover {
 figure img, svg, iframe, video, audio {
    
         padding: 1rem;
-        background-color: rgba(250,250,250,0);
-        border: 1px solid black;
+        background-color: rgba(200,200,200,0);
+        border: 1px solid #f2f2f2;
       }
 
 figure{
