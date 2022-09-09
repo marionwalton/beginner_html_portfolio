@@ -81,11 +81,12 @@ a{
 a,
 a:visited,
 a:hover {
+  font-size: 1rem;
   color: teal;
   text-decoration: none;
 }
 
-small, figcaption, figcaption a, a:visited, a:hover {
+small, figcaption, figcaption a, figcaption a:visited, figcaption a:hover {
   font-size: 0.7rem;
 }
 
