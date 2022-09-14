@@ -198,22 +198,24 @@ footer a:hover {
 /* gallery styles */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
 }
 /* styles for photo cards */
 .card {
   background-color: cadetblue;
   border: 2px solid #e7e7e7;
+  color:white;
   
-.card a, 
-.card a:visited {
-  color: white;
+a.card:link{
+  color: red;
 }
 
 .card a:hover {
   color: teal;
   background-color: white;
 }
+  
+
  
 border-radius: 4px;
  
