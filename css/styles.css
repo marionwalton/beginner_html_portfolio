@@ -90,22 +90,21 @@ small, small a, small a:visited, small a:hover, figcaption, figcaption a, figcap
 }
 
 figure img, svg, iframe, video, audio {
-border-radius: 10px;
-display: table;
-  position:relative;
+  border-radius: 10px;
+  max-width:100%; 
 }
 
 figcaption{
- 
+max-width:400px; 
 }
 
 figure{
   display: inline-block;
   margin:0 0 1rem 0;
   padding:0;
-   padding: 1rem;
-   background-color: #fbfbfb;
-   border: 1px solid #f4f4f4;
+  padding: 1rem;
+  background-color: #fbfbfb;
+  border: 1px solid #f4f4f4;
 }
 
 .container {
