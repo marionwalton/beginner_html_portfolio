@@ -136,7 +136,7 @@ figure img, svg, iframe, video, audio {
 
 /*Styles for the responsive page container - view border to see how this restricts maximum width */
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
  /* border: 1px solid #f4f4f4;*/
 }
