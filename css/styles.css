@@ -152,7 +152,7 @@ nav{
 	position: sticky;
 	top: 0;
   padding:0 0.5rem 0.5rem 0.5rem;
-  background-color:  cadetblue;
+  background-color:  chocolate;
   text-align:right;
  
   
@@ -167,11 +167,11 @@ nav a{
 
 nav a:link, nav a:visited {
   color: white;
-  background-color: cadetblue;
+  background-color: chocolate;
 }
 
 nav a:hover {
-  color: cadetblue;
+  color: chocolate;
   background-color: white;
 }
 
@@ -207,7 +207,7 @@ footer a:visited {
 }
 
 footer a:hover {
-  color: cadetblue;
+  color: chocolate;
   background-color: white;
 }
 
@@ -227,7 +227,7 @@ padding: .5rem;
 
 .card a:link,
 .card a:visited{
-  color:cadetblue;
+  color:chocolate;
 }
 
 .card a:hover{
