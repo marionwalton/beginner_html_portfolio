@@ -102,28 +102,30 @@ figure{
 }
 
 .container {
-  width: 600px;
+  width: 800px;
   margin: auto;
+  border: 1px solid #f4f4f4;
 }
 
 nav{
   padding:0 0.5rem 0.5rem 0.5rem;
-  background-color:  #f4f4f4;
+  background-color:  teal;
+  text-align:center;
+  
 }
 
 nav a{
   display: block-inline;
- 
   padding: 0.2rem;
-  border: 1px solid #f4f4f4;
+  border: none;
 }
 
-nav a {
+nav a, nav a:visited {
   color: white;
   background-color: teal;
 }
 
-nav a:hover a:visited {
+nav a:hover {
   color: teal;
-   background-color: #ffffff;
+  background-color: white;
 }
