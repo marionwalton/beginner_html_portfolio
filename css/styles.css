@@ -125,11 +125,11 @@ figure img, svg, iframe, video, audio {
   max-width:100%; 
 }
 
-/*Styles for the responsive page container - restricts maximum width */
+/*Styles for the responsive page container - view border to see how this restricts maximum width */
 .container {
   max-width: 800px;
   margin: auto;
-  border: 1px solid #f4f4f4;
+ /* border: 1px solid #f4f4f4;*/
 }
 
 /*Styles for the main content container */
@@ -173,8 +173,8 @@ padding:0;
 
 /* footer styles */
 footer{
-  padding:0 0.5rem 0.5rem 0.5rem;
-  background-color: teal;
+  padding:0.5rem;
+  background-color: #000;
   color: white;
   margin: 0.5rem 0;
   display: flex;
