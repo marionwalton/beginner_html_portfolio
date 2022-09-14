@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  color: #8a8a8a;
+  color: cadetblue;
   font-size: 3rem;
 }
 
@@ -55,7 +55,7 @@ a,
 a:visited,
 a:hover {
   font-size: 1rem;
-  color: teal;
+  color: chocolate;
   text-decoration: none;
 }
 
@@ -162,11 +162,11 @@ nav a{
 
 nav a:link, nav a:visited {
   color: white;
-  background-color: teal;
+  background-color: cadetblue;
 }
 
 nav a:hover {
-  color: teal;
+  color: cadetblue;
   background-color: white;
 }
 
@@ -177,7 +177,6 @@ header{
 header img{
   display:block;
 padding:0;
-  max-width:100%; 
 }
 
 /* footer styles */
@@ -202,7 +201,7 @@ footer a:visited {
 }
 
 footer a:hover {
-  color: teal;
+  color: cadetblue;
   background-color: white;
 }
 
@@ -222,7 +221,7 @@ padding: .5rem;
 
 .card a:link,
 .card a:visited{
-  color:teal;
+  color:cadetblue;
 }
 
 .card a:hover{
