@@ -204,16 +204,13 @@ footer a:hover {
 .card {
   background-color: cadetblue;
   border: 2px solid #e7e7e7;
-  color:white;
+  color:white;}
   
-a.card:link{
-  color: red;
-}
-
-.card a:hover {
-  color: teal;
-  background-color: white;
-}
+a.gallery:visited{color:red;}
+  
+a.figure.card:link{color: red;}
+  a.figure.card:visited{color: red;}
+  a.figure.card:hover{color: white;}
   
 
  
