@@ -151,7 +151,7 @@ nav a{
   border-radius: 5px;
   display: inline-block;
   padding: 0.2rem;
-  font-size: 5rem;
+  font-size: 1rem;
 }
 
 nav a:link, nav a:visited {
