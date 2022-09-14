@@ -87,18 +87,20 @@ a:hover {
 
 small, small a, small a:visited, small a:hover, figcaption, figcaption a, figcaption a:visited, figcaption a:hover {
   font-size: 0.7rem;
+  
 }
 
 figure img, svg, iframe, video, audio {
-   
-        padding: 1rem;
-        background-color: #fbfbfb;
-        border: 1px solid #f4f4f4;
-      }
+border-radius: 5px;
+  border: 1px solid white;
+}
 
 figure{
   margin:0 0 1rem 0;
   padding:0;
+   padding: 1rem;
+   background-color: #fbfbfb;
+   border: 1px solid #f4f4f4;
 }
 
 .container {
@@ -134,22 +136,21 @@ footer{
   padding:0.5rem 0.5rem 0.5rem 0.5rem;
   background-color: #8a8a8a;
   color: white;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   display: flex;
   align-items:center;
   
 }
+
 footer  img{
   position: relative;
   border-width: 0; 
-  padding: 0 1rem;  
+  padding: 0 0.5rem;  
   float:left;
-  vertical-align: middle;
 }
 
 footer a, footer a:visited {
   color: white;
-  background-color: teal;
 }
 
 footer a:hover {
