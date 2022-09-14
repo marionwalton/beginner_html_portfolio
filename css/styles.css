@@ -202,22 +202,21 @@ footer a:hover {
 }
 /* styles for photo cards */
 .card {
-  background-color: cadetblue;
+  background-color: #e7e7e7;
   border: 2px solid #e7e7e7;
-  color:white;}
-  
-a.gallery:visited{color:red;}
-  
-a.figure.card:link{color: red;}
-  a.figure.card:visited{color: red;}
-  a.figure.card:hover{color: white;}
-  
-
- 
-border-radius: 4px;
- 
+  color:white;
 padding: .5rem;
  
+}
+
+
+.card a:link,
+.card a:visited{
+  color:teal;
+}
+
+.card a:hover{
+  color:black;
 }
 main {
   background: slategray;
