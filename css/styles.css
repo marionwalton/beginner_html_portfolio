@@ -9,6 +9,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 24px;
 }
 
 /*Sets default typeface, colour and size for whole page*/
