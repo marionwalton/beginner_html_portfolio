@@ -118,11 +118,7 @@ max-width:400px;
 }
 
 
-header img{
-  display:block;
-padding:0;
-  max-width:100%; 
-}
+
 /*Styles for all types of media displayed as figures*/
 figure img, svg, iframe, video, audio {
   border-radius: 10px;
@@ -167,8 +163,12 @@ nav a:hover {
 
 /* header styles */
 header{
-  padding:0 0.5rem 0.5rem 0.5rem;
   background-color: #f4f4f4;  
+}
+header img{
+  display:block;
+padding:0;
+  max-width:100%; 
 }
 
 /* footer styles */
