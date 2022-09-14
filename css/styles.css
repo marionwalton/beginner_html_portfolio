@@ -5,19 +5,19 @@
 }
 
 /*Sets default margin and padding for the whole page*/
-html,
-body {
+html {
   margin: 0;
   padding: 0;
-  font-size: 24px;
+    font-family: Trebuchet MS, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #3b3b3b;
+  font-size: 20px;
 }
 
 /*Sets default typeface, colour and size for whole page*/
 body {
-  font-family: Trebuchet MS, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #3b3b3b;
-  font-size: 24px;
+    margin: 0;
+  padding: 0;
 }
 
 @media(max-width:900px){
@@ -39,16 +39,16 @@ h3 {
 
 h1 {
   color: #000;
-  font-size: 6rem;
+  font-size: 3rem;
 }
 
 h2 {
   color: chocolate;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /*Styles for different states of links*/
@@ -84,7 +84,7 @@ figcaption,
 figcaption a, 
 figcaption a:visited, 
 figcaption a:hover {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   
 }
 
