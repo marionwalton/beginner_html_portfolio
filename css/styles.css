@@ -107,6 +107,23 @@ figure{
 }
 
 nav{
-  
-  background-color:  #fbfbfb;
+  padding:0 0.5rem 0.5rem 0.5rem;
+  background-color:  #f4f4f4;
+}
+
+nav a{
+  display: block-inline;
+ 
+  padding: 0.2rem;
+  border: 1px solid #f4f4f4;
+}
+
+nav a {
+  color: white;
+  background-color: teal;
+}
+
+nav a:hover a:visited {
+  color: teal;
+   background-color: #ffffff;
 }
