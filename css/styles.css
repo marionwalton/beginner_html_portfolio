@@ -117,8 +117,6 @@ figcaption{
 max-width:400px; 
 }
 
-
-
 /*Styles for all types of media displayed as figures*/
 figure img, svg, iframe, video, audio {
   border-radius: 10px;
@@ -187,7 +185,8 @@ footer  img{
   float:left;
 }
 
-footer a, footer a:visited {
+footer a, 
+footer a:visited {
   color: white;
 }
 
@@ -196,14 +195,25 @@ footer a:hover {
   background-color: white;
 }
 
+/* gallery styles */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+}
+/* styles for photo cards */
+.card {
+  background-color: cadetblue;
+  border: 2px solid #e7e7e7;
+  
+.card a, 
+.card a:visited {
+  color: white;
 }
 
-.card {
-  background: skyblue;
-  border: 2px solid #e7e7e7;
+.card a:hover {
+  color: teal;
+  background-color: white;
+}
  
 border-radius: 4px;
  
