@@ -117,6 +117,12 @@ figcaption{
 max-width:400px; 
 }
 
+
+header img{
+  display:block;
+padding:0;
+  max-width:100%; 
+}
 /*Styles for all types of media displayed as figures*/
 figure img, svg, iframe, video, audio {
   border-radius: 10px;
