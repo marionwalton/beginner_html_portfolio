@@ -85,7 +85,7 @@ a:hover {
   text-decoration: none;
 }
 
-small, figcaption, figcaption a, figcaption a:visited, figcaption a:hover {
+small, small a, small a:visited, small a:hover, figcaption, figcaption a, figcaption a:visited, figcaption a:hover {
   font-size: 0.7rem;
 }
 
@@ -104,4 +104,9 @@ figure{
 .container {
   width: 600px;
   margin: auto;
+}
+
+nav{
+  
+  background-color:  #fbfbfb;
 }
