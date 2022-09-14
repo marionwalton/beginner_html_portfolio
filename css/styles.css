@@ -69,7 +69,6 @@ table td{
 }
 
 p,
-figcaption,
 li,
 a{
   font-size: 1rem;
@@ -91,11 +90,11 @@ small, small a, small a:visited, small a:hover, figcaption, figcaption a, figcap
 }
 
 figure img, svg, iframe, video, audio {
-border-radius: 5px;
-  border: 1px solid white;
+border-radius: 10px;
 }
 
 figure{
+  display: inline-block;
   margin:0 0 1rem 0;
   padding:0;
    padding: 1rem;
@@ -117,7 +116,7 @@ nav{
 }
 
 nav a{
-  display: block-inline;
+  display: inline-block;
   padding: 0.2rem;
   border: none;
 }
