@@ -1,218 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Important information about your page - Practice using HTML Head -->
+    <!-- Metadata gives important information about your page to browsers and search engines -->
     <meta charset="utf-8" />
-    <title>Your Name Here: Beginner Version of Multimedia Journalism Student Portfolio</title>
-    <meta name="description" content="_______INSERT_DESCRIPTION_OF_YOUR_PAGE_HERE______" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <!-- What your page will look like - Practice linking CSS stylesheet-->
+    <title>
+      Your Name Here: Beginner Version of Multimedia Journalism Student Portfolio
+    </title>
+    <meta
+      name="description"
+      content="INSERT_DESCRIPTION_OF_YOUR_PAGE_HERE"
+    />
+    <!-- This instructs the browser to fit your page to the screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style sheets control what your page will look like - Practice linking CSS stylesheet-->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- This container div is styled with css to position your content in the centre of the screen -->
-     <nav>
-        <!-- These are internal links to different parts of your page. Add a link to your Skills and Contact sections -->
-       
-  <a href="https://beginner-html-portfolio.glitch.me/">Home</a>
-       <a href="#bio">Bio</a>
-       
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-       <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-        
-</nav>
-      <header>
-        <!-- Page Header - -->
+    <!-- This is your navigation bar -->
+    <nav>
+      <!-- These are internal links to different parts of your page. Change the home page to link to your own page and add an id attribute to the sections which are missing one -->
+
+      <a href="https://beginner-html-portfolio.glitch.me/">Home</a>
+      <a href="#bio">Bio</a>
+
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <header>
+      <!-- Page Header - -->
       <!-- Your Logo - Practice using images -->
       <!-- Replace this header image with your own logo uploaded to Assets.-->
+      <!--See the difference between raster(png) and vector(svg) images by switching to between svg https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/vectre_logo.svg?v=1663169467895 https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/NAME%20SURNAME.png?v=1663170496323 -->
       <img
-        src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/vectre_logo.svg?v=1663169467895"
+        src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/NAME%20SURNAME.png?v=1663170496323"
         alt="Name Surname Student Portfolio for Multimedia Journalism"
-      
-           />
-      
-</header>
+      />
+    </header>
+    <!-- This container div is styled with css to position your content in the centre of the screen -->
     <div class="container">
-          <!-- This is your navigation bar -->
-     
       <!-- Main content starts here -->
       <div class="content">
-      <h2>Multimedia Journalism Portfolio</h2>
+        <h2>Multimedia Journalism Portfolio</h2>
         <h1>Name Surname</h1>
-            <!-- Optional - Feel free to add your pronouns here -->
-      <p>
-      (She/They)
-      </p>
-      <!-- Use a figure whenever you want to link media to a caption -->
-      <figure>
-      <!-- Replace this image with your own uploaded to Assets.-->
-      <img
-        src="https://cdn.glitch.com/702579f6-c853-4548-a1c5-4e1558c155fe%2Fthumbnail.svg"
-        width="400"
-        height="400"
-        alt="Black and White Portrait of Marion Walton"
-      /><figcaption>Your Self-Portrait Goes Here. Write a caption to go with it. You can set the maximum width of the caption in your css styles. </figcaption></figure>
-
-      <h2 id="bio">Education and Work Experience</h2>
-      <!-- About Me - Practice using HTML Paragraphs and Text -->
-      <p>
-        Tell us about yourself and your studies at
-        <a href="https://www.w3schools.com" title="University of Cape Town"
-          >UCT</a
-        >. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-        <a href="#" title="This is a tool tip">this text is the link anchor</a>
-        sed diam nonummy nibh euismod dolore magna aliquam erat volutpat. Lorem
-        ipsum dolor sit amet <b>hello bold text</b> nonummy nibh euismod
-        <i>italic text</i> tincidunt ut laoreet dolore magna.
-      </p>
-
-      <!-- Multimedia - Experiment with different ways to display media in HTML -->
-      <h4>Video Intro</h4>
-
-      <!-- Use a figure whenever you want to link media to a caption -->
-
-      <!-- The video element -->
-      <figure>
-        <video controls width="427" height="240">
-          <!-- alternative format for video. The browser will use the first recognized format. -->
-          <source
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm"
-            type="video/webm"
+        <!-- Optional - Feel free to add your pronouns here -->
+        <p>(She/They)</p>
+        <!-- Use a figure whenever you want to link media to a caption -->
+        <figure>
+          <!-- Replace this image with your own uploaded to Assets.-->
+          <img
+            src="https://cdn.glitch.com/702579f6-c853-4548-a1c5-4e1558c155fe%2Fthumbnail.svg"
+            width="400"
+            height="400"
+            alt="Black and White Portrait of Marion Walton"
           />
-          <source
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4"
-            type="video/mp4"
-          />
-          <!-- The following message only appears for older browsers which do not recognise the video tag-->Your
-          browser does not support the video tag.
-        </video>
-        <figcaption>This is a caption. Display your TikTok video using video tag</figcaption>
-      </figure>
-    <h2 id="projects">Projects - 2022</h2>
-      <!-- Lists - Add your projects to this HTML list by uploading to assets and creating links to them -->
-      <ol>
-        <li><a href="#">Profile feature article</a></li>
-        <li>Audio Feature</li>
-        <li>
-          “Newswatch” submission
-          <ul>
-            <li>Term 3</li>
-          </ul>
-        </li>
-        <li>
-          Data Journalism Assignment
-          <ul>
-            <li>Greenwashing Dataset</li>
-            <li>Infographic</li>
-          </ul>
-        </li>
+          <figcaption>
+            Your Self-Portrait Goes Here. Write a caption to go with it. You can
+            set the maximum width of the caption in your css styles.
+          </figcaption>
+        </figure>
 
-        <li>
-          Social Media (Newswatch Term 4)
-          <ul>
-            <li>Two Newsroom Twitter posts OR</li>
-            <li>Explainer video OR</li>
-            <li>Animated infographic OR</li>
-            <li>Instagram feed post and caption</li>
-          </ul>
-        </li>
-        <li>
-          Portfolio site/blog
-          <ul>
-            <li>HTML exercise</li>
-          </ul>
-        </li>
-      </ol>
+        <h2 id="bio">Education and Work Experience</h2>
+        <!-- About Me - Practice using HTML Paragraphs and Text -->
+        <p>
+          Tell us about yourself and your studies at
+          <a href="https://www.w3schools.com" title="University of Cape Town"
+            >UCT</a
+          >. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+          <a href="#" title="This is a tool tip"
+            >this text is the link anchor</a
+          >
+          sed diam nonummy nibh euismod dolore magna aliquam erat volutpat.
+          Lorem ipsum dolor sit amet <b>hello bold text</b> nonummy nibh euismod
+          <i>italic text</i> tincidunt ut laoreet dolore magna.
+        </p>
 
-              <!-- Post your 3 best photos here -->
-     
-        
-        
+        <!-- Multimedia - Experiment with different ways to display media in HTML -->
+        <h4>Video Intro</h4>
+
+        <!-- Use a figure whenever you want to link media to a caption -->
+
+        <!-- The video element -->
+        <figure>
+          <video controls width="427" height="240">
+            <!-- alternative format for video. The browser will use the first recognized format. -->
+            <source
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm"
+              type="video/webm"
+            />
+            <source
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4"
+              type="video/mp4"
+            />
+            <!-- The following message only appears for older browsers which do not recognise the video tag-->Your
+            browser does not support the video tag.
+          </video>
+          <figcaption>
+            This is a caption. Display your TikTok video using video tag
+          </figcaption>
+        </figure>
+        <h2 id="projects">Projects - 2022</h2>
+        <!-- Lists - Add your projects to this HTML list by uploading to assets and creating links to them -->
+        <ol>
+          <li><a href="#">Profile feature article</a></li>
+          <li>Audio Feature</li>
+          <li>
+            “Newswatch” submission
+            <ul>
+              <li>Term 3</li>
+            </ul>
+          </li>
+          <li>
+            Data Journalism Assignment
+            <ul>
+              <li>Greenwashing Dataset</li>
+              <li>Infographic</li>
+            </ul>
+          </li>
+
+          <li>
+            Social Media (Newswatch Term 4)
+            <ul>
+              <li>Two Newsroom Twitter posts OR</li>
+              <li>Explainer video OR</li>
+              <li>Animated infographic OR</li>
+              <li>Instagram feed post and caption</li>
+            </ul>
+          </li>
+          <li>
+            Portfolio site/blog
+            <ul>
+              <li>HTML exercise</li>
+            </ul>
+          </li>
+        </ol>
+
+        <!-- Post your 3 best photos here -->
+
         <h2>Photo Gallery</h2>
         <p>Click the photo to view at higher resolution.</p>
-         <div class="gallery">
-        <figure class="card">
-        <a href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"><img src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"/><figcaption>Caption goes here</figcaption></a></figure>
-       <figure class="card">
-        <a href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"><img src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"/><figcaption>Caption goes here</figcaption></a></figure>
-        <figure class="card">
-        <a href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"><img src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"/><figcaption>Caption goes here</figcaption></a></figure>
-               <figure class="card">
-        <a href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"><img src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"/><figcaption>Caption goes here</figcaption></a></figure>
-       <figure class="card">
-        <a href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"><img src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"/><figcaption>Caption goes here</figcaption></a></figure>
-        <figure class="card">
-        <a href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"><img src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"/><figcaption>Caption goes here</figcaption></a></figure></div>
-      <!-- Practice using HTML Table -->
-      <h2>Skills and experience</h2>
-<p>
- This table lists the various projects I worked on during 2022 with details of the the various skills I learned in each project. 
-      </p>
-      <table>
-        <thead>
-          <tr>
-            <th>&nbsp;</th>
-            <th>Writing</th>
-            <th>Photos</th>
-            <th>Video</th>
-            <th>Audio</th>
-            <th>Coding</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <th>Project1</th>
-            <td>Lorem ipsum dolor sit amet</td>
-            <td>Lorem ipsum dolor sit amet</td>
-            <td>Lorem ipsum dolor sit amet</td>
-            <td>Lorem ipsum dolor sit amet</td>
-            <td>Lorem ipsum dolor sit amet</td>
-          </tr>
-          <tr>
-            <th>Project2</th>
-            <td>Lorem ipsum dolor sit amet</td>
-            <td>Lorem ipsum dolor sit amet</td>
-            <td>Lorem ipsum dolor sit amet</td>
-            <td>Lorem ipsum dolor sit amet</td>
-            <td>Lorem ipsum dolor sit amet</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h2>
-        Contact Me
-      </h2>
-      <p>
-        
-      Your <a href= "mailto: abc@example.com">email</a> and/or social contacts here</p>
-      
-        <p>
-         <a href="http://twitter.com"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="teal" class="bi bi-twitter" viewbox="0 0 16 16">
-  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-</svg></a>
-        </p>
+        <div class="gallery">
+          <figure class="card">
+            <a
+              href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"
+              ><img
+                src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"
+              />
+              <figcaption>Caption goes here</figcaption></a
+            >
+          </figure>
+          <figure class="card">
+            <a
+              href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"
+              ><img
+                src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"
+              />
+              <figcaption>Caption goes here</figcaption></a
+            >
+          </figure>
+          <figure class="card">
+            <a
+              href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"
+              ><img
+                src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"
+              />
+              <figcaption>Caption goes here</figcaption></a
+            >
+          </figure>
+          <figure class="card">
+            <a
+              href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"
+              ><img
+                src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"
+              />
+              <figcaption>Caption goes here</figcaption></a
+            >
+          </figure>
+          <figure class="card">
+            <a
+              href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"
+              ><img
+                src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"
+              />
+              <figcaption>Caption goes here</figcaption></a
+            >
+          </figure>
+          <figure class="card">
+            <a
+              href="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/extralarge.jpg?v=1663154181664"
+              ><img
+                src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/small.jpg?v=1663153774225"
+              />
+              <figcaption>Caption goes here</figcaption></a
+            >
+          </figure>
         </div>
-      </div>
-      <!-- Footer - Creative Commons - Do you want copyright or copyleft? -->
-      <footer>
+        <!-- Practice using HTML Table -->
+        <h2>Skills and experience</h2>
+        <p>
+          This table lists the various projects I worked on during 2022 with
+          details of the the various skills I learned in each project.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Writing</th>
+              <th>Photos</th>
+              <th>Video</th>
+              <th>Audio</th>
+              <th>Coding</th>
+            </tr>
+          </thead>
 
-                  
-          <img
-              alt="Creative Commons Licence"
-              src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
-          
-        <p>This work is licensed under a
-          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-            >Creative Commons Attribution 4.0 International License</a></p>
-        
-        
-      
-        </footer>
-      
-    
+          <tbody>
+            <tr>
+              <th>Project1</th>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+            </tr>
+            <tr>
+              <th>Project2</th>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+              <td>Lorem ipsum dolor sit amet</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Contact Me</h2>
+        <p>
+          Your <a href="mailto: abc@example.com">email</a> and/or social
+          contacts here
+        </p>
+
+        <p>
+          <a href="http://twitter.com">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="teal"
+              class="bi bi-twitter"
+              viewbox="0 0 16 16"
+            >
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+              /></svg
+          ></a>
+        </p>
+      </div>
+    </div>
+    <!-- Footer - Creative Commons - Do you want copyright or copyleft? -->
+    <footer>
+      <img
+        alt="Creative Commons Licence"
+        src="https://i.creativecommons.org/l/by/4.0/88x31.png"
+      />
+
+      <p>
+        This work is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+          >Creative Commons Attribution 4.0 International License</a
+        >
+      </p>
+    </footer>
+
     <!-- You may want to put JavaScript here one day to add interactivity 
     <script src="js/functions.js"></script>-->
   </body>
