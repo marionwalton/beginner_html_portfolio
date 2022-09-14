@@ -19,9 +19,10 @@ body {
   font-size: 24px;
 }
 
-/*Styles for large headings*/
+/*Styles large headings - group elements together when you want to apply identical styles*/
 h1,
-h2 {
+h2, 
+h3 {
   text-align: left;
   display: block;
   margin: 0;
@@ -40,19 +41,46 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  display: block;
-  padding: 1rem 0 0 0;
 }
 
+/*Styles for different states of links*/
+a,
+a:visited,
+a:hover {
+  font-size: 1rem;
+  color: teal;
+  text-decoration: none;
+}
+
+/*Styles for smaller headings, text and links*/
 p,
 h3,
 h4,
 a,
 {
-  margin: 0;
   font-weight: 300;
 }
 
+p,
+li,
+a{
+  font-size: 1rem;
+}
+
+/*Styles for tiny text and links*/
+footer, 
+footer a, 
+footer a:visited, 
+footer a:hover, 
+figcaption, 
+figcaption a, 
+figcaption a:visited, 
+figcaption a:hover {
+  font-size: 0.7rem;
+  
+}
+
+/*Styles for tables*/
 table,th,td {
   border: 1px solid #f2f2f2;
    background-color: #fbfbfb;
@@ -72,33 +100,7 @@ table td{
   color:#8a8a8a;
 }
 
-p,
-li,
-a{
-  font-size: 1rem;
-}
-
-a,
-a:visited,
-a:hover {
-  font-size: 1rem;
-  color: teal;
-  text-decoration: none;
-}
-
-small, small a, small a:visited, small a:hover, figcaption, figcaption a, figcaption a:visited, figcaption a:hover {
-  font-size: 0.7rem;
-  
-}
-
-figure img, svg, iframe, video, audio {
-  border-radius: 10px;
-  max-width:100%; 
-}
-
-figcaption{
-max-width:400px; 
-}
+/*Styles for figures with captions*/
 
 figure{
   display: inline-block;
@@ -110,24 +112,36 @@ figure{
   border-radius: 10px;
 }
 
+figcaption{
+max-width:400px; 
+}
+
+/*Styles for all media displayed as figures*/
+figure img, svg, iframe, video, audio {
+  border-radius: 10px;
+  max-width:100%; 
+}
+
+/*Styles for the responsive page container - restricts maximum width */
 .container {
   max-width: 800px;
   margin: auto;
   border: 1px solid #f4f4f4;
 }
 
+/*Styles for the main content container */
 .content{
     padding: 0 0 0 0.5rem;
 }
 
-/* navigation bar styles */
+/* navigation bar */
 nav{
   padding:0 0.5rem 0.5rem 0.5rem;
   background-color:  teal;
   text-align:center;
   
 }
-
+/* turn links into buttons */
 nav a{
   display: inline-block;
   padding: 0.2rem;
