@@ -159,6 +159,12 @@ nav a:hover {
   background-color: white;
 }
 
+/* header styles */
+header{
+  padding:0 0.5rem 0.5rem 0.5rem;
+  background-color: #f4f4f4;  
+}
+
 /* footer styles */
 footer{
   padding:0 0.5rem 0.5rem 0.5rem;
