@@ -21,10 +21,10 @@ body {
 }
 
 @media(max-width:900px){
-  body{font-size:15px}
+  body{font-size:15px; background-color:red}
 }
 @media(max-width:400px){
-  body{font-size:13px}
+  body{font-size:13px; background-color:pink}
 }
 
 /*Styles large headings - group elements together when you want to apply identical styles*/
