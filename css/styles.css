@@ -18,15 +18,18 @@ html {
 body {
     margin: 0;
   padding: 0;
-
-
+}
 @media(max-width:900px){
-  font-size:15px;
+  :root{
+  font-size:80%;
+  }
 }
 @media(max-width:400px){
-  font-size:13px;
+  :root{
+  font-size:70%;
+  }
 }
-}
+
 /*Styles large headings - group elements together when you want to apply identical styles*/
 h1,
 h2, 
@@ -151,7 +154,7 @@ nav{
   padding:0 0.5rem 0.5rem 0.5rem;
   background-color:  cadetblue;
   text-align:right;
-  width:100vw;
+ 
   
 }
 
@@ -179,6 +182,7 @@ header{
 header img{
   display:block;
 padding:0;
+  width:100%;
 }
 
 /* footer styles */
@@ -210,7 +214,7 @@ footer a:hover {
 /* gallery styles */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
 }
 /* styles for photo cards */
 .card {
