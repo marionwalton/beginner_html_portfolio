@@ -105,6 +105,7 @@ figure{
   padding: 1rem;
   background-color: #fbfbfb;
   border: 1px solid #f4f4f4;
+  border-radius: 10px;
 }
 
 .container {
@@ -137,8 +138,8 @@ nav a:hover {
 }
 
 footer{
-  padding:0.5rem 0.5rem 0.5rem 0.5rem;
-  background-color: #8a8a8a;
+  padding:0 0.5rem 0.5rem 0.5rem;
+  background-color: teal;
   color: white;
   margin: 0.5rem 0;
   display: flex;
@@ -147,8 +148,6 @@ footer{
 }
 
 footer  img{
-  position: relative;
-  border-width: 0; 
   padding: 0 0.5rem;  
   float:left;
 }
