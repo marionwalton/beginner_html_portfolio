@@ -213,7 +213,6 @@ padding: .5rem;
  
 }
 
-
 .card a:link,
 .card a:visited{
   color:teal;
@@ -221,15 +220,4 @@ padding: .5rem;
 
 .card a:hover{
   color:black;
-}
-main {
-  background: slategray;
-  grid-column: 4 / 10;
-}
-aside {
-  background: seagreen;
-  grid-column: 10 / 13;
-}
-main, nav, aside {
-  grid-row: 2 / 4;
 }
