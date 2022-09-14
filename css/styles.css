@@ -17,11 +17,11 @@ body {
 
 h1,
 h2 {
-  color: #8a8a8a;
   text-align: left;
   display: block;
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
 h1 {
@@ -30,6 +30,7 @@ h1 {
 }
 
 h2 {
+  color: #8a8a8a;
   font-size: 3rem;
 }
 
@@ -40,14 +41,12 @@ h3 {
 }
 
 p,
-h1,
-h2,
 h3,
 h4,
 a,
 {
   margin: 0;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 table,th,td {
