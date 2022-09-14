@@ -68,7 +68,7 @@ a{
 }
 
 /*Styles for tiny text and links*/
-footer, 
+footer p, 
 footer a, 
 footer a:visited, 
 footer a:hover, 
@@ -83,13 +83,14 @@ figcaption a:hover {
 /*Styles for tables*/
 table,th,td {
   border: 1px solid #f2f2f2;
-   background-color: #fbfbfb;
+  background-color: #fbfbfb;
   color: #000;
-   font-weight: 600; 
+  font-weight: 600; 
   font-size: 1rem;
-text-align: left;
+  text-align: left;
   border-collapse: collapse;
   padding: 0.8rem;
+  margin: 0 0 1rem 0;
       }
 
 table td{
@@ -116,7 +117,7 @@ figcaption{
 max-width:400px; 
 }
 
-/*Styles for all media displayed as figures*/
+/*Styles for all types of media displayed as figures*/
 figure img, svg, iframe, video, audio {
   border-radius: 10px;
   max-width:100%; 
@@ -143,9 +144,9 @@ nav{
 }
 /* turn links into buttons */
 nav a{
+  border-radius: 5px;
   display: inline-block;
   padding: 0.2rem;
-  border: none;
 }
 
 nav a, nav a:visited {
