@@ -1,5 +1,8 @@
 <style>
-  h1, h2 {color:red;}
+  h1, h2 {color:red;
+font-family: 'Comic Neue', cursive;
+}
+
       body{background-color:black;}
   p, ul,ol {color:white;}
       nav, nav a:link, nav a:visited{background-color:red;}
