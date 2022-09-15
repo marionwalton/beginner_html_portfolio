@@ -1,4 +1,12 @@
 <style>
-  h1 {color:red;}
-  p {color:blue;}
+  h1, h2 {color:red;}
+      body{background-color:black;}
+  p, ul,ol {color:white;}
+      nav, nav a:link, nav a:visited{background-color:red;}
+      nav a:hover{color:green; background-color:white;}
+a,
+a:visited,
+a:hover {
+  color: red;
+}     
 </style>
