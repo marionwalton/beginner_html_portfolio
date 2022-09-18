@@ -1,4 +1,4 @@
-
+<style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300" rel="stylesheet">
@@ -9,6 +9,7 @@ font-family: 'Comic Neue', cursive;
 }
 /* colour scheme for overall page, body text and links*/
   body{background-color:black;}
+  header img{background-color:red;}
   p, ul,ol {color:white;}
   a, a:visited, a:hover {
     color: red;
