@@ -13,11 +13,15 @@ font-family: 'Comic Neue', cursive;
   a, a:visited, a:hover {
     color: red;
 }   
-/*colour scheme for navigation bar*/
+/*colour scheme for navigation bar and links*/
   nav, nav a:link, nav a:visited{background-color:red;}
   nav a:hover{color:green; background-color:white;}
-/*colour scheme 
+/*colour scheme for links on gallery cards*/
 .card a:link, .card a:visited{
   color:red;
+}
+/*change the width of captions e.g. if you have a larger self-portrait*/
+figcaption{
+max-width:600px; 
 }
 </style>
