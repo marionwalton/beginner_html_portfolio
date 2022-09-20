@@ -48,14 +48,15 @@
       <!-- Page Header - -->
       <!-- Your Logo - Practice using images -->
       <!-- Replace this header image with your own logo uploaded to Assets.-->
-      <!--See the difference between raster(png) and vector(svg) images by switching  between a svg file 
-      https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/vectre_logo.svg?v=1663169467895 
-      and a png file https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/NAME%20SURNAME.png?v=1663170496323 
+      <!--See how the browser switches between a smaller png image and a larger png image depending on the screen size (media)
+      
       -->
       <picture>
+          <!-- Your Logo - This is a low res version for smaller screens -->
   <source srcset="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/NAME%20SURNAME.png?v=1663170496323" media="(max-width: 800px)">
-  <source srcset="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/logo_1920_480.png?v=1663661394043" media="(max-width: 1500px)">
-  <source srcset="flowers.jpg">
+          <!-- This is a high res version for larger screens -->
+  <source srcset="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/logo_1920_480.png?v=1663661394043">
+          <!-- This is the default image-->
 <img
         src="https://cdn.glitch.global/702579f6-c853-4548-a1c5-4e1558c155fe/NAME%20SURNAME.png?v=1663170496323"
         alt="Name Surname Student Portfolio for Multimedia Journalism"
