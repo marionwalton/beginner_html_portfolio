@@ -156,9 +156,7 @@ nav{
 	top: 0;
   padding:0 0.5rem 0.5rem 0.5rem;
   background-color:  chocolate;
-  text-align:right;
- 
-  
+  text-align:right; 
 }
 
 /* turn links into buttons */
@@ -184,7 +182,7 @@ header{
 }
 header img{
   display:block;
-padding:0;
+  padding:0;
   width:100%;
 }
 
